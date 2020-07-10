@@ -21,5 +21,5 @@ resource "vra_project" "this" {
 
   shared_resources = false
 
-  administrators = var.admin_email
+  administrators = [var.admin_email]
 }
