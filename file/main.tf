@@ -21,5 +21,5 @@ resource "vra_project" "this" {
 
   shared_resources = false
 
-  administrators = ["paulinam@vmware.com"]
+  administrators = var.admin_email
 }
